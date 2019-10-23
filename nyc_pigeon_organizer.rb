@@ -1,8 +1,9 @@
 def get_shallow_data(data)
   hash = {}
   
-  data[:gender].collect do |datum|
-    hash[datum] = {}
+  index = 0
+  while index < data[:gender][:male].size do
+    
   end
   
   pp hash
