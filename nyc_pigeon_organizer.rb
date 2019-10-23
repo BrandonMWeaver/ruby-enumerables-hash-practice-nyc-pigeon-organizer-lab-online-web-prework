@@ -5,6 +5,7 @@ def get_shallow_data(data)
     
   end
   
+  pp hash
 end
 
 def nyc_pigeon_organizer(data)
