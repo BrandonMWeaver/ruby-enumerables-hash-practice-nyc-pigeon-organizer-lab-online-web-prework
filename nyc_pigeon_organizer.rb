@@ -2,7 +2,7 @@ def get_shallow_data(data)
   hash = {}
   
   data[:gender].collect do |datum|
-  
+    hash[datum] = {}
   end
   
   pp hash
