@@ -16,6 +16,10 @@ def get_shallow_data(data)
   pp hash
 end
 
+def get_deep_data(data)
+  
+end
+
 def nyc_pigeon_organizer(data)
   get_shallow_data(data)
 end
