@@ -23,5 +23,5 @@ def get_deep_data(data)
 end
 
 def nyc_pigeon_organizer(data)
-  return get_deep_data_data(data)
+  get_deep_data(data)
 end
