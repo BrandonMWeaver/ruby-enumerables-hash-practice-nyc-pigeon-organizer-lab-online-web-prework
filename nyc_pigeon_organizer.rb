@@ -9,13 +9,5 @@ def get_shallow_data(data)
 end
 
 def nyc_pigeon_organizer(data)
-  hash = {}
-  
-  pp data
-  
-  data.collect do |datum|
-    
-  end
-  
-  pp hash
+  get_shallow_data(data)
 end
