@@ -11,6 +11,11 @@ def nyc_pigeon_organizer(data)
         hash[datum[:male][index]] = {}
       end
       
+      index = 0
+      while index < datum[:female] do
+        hash[datum[:female][index]] = {}
+      end
+      
     end
   end
   
