@@ -3,7 +3,7 @@ def get_shallow_data(data)
   
   index = 0
   while index < data[:gender][:male].size do
-    
+    hash[data[:gender][:male][index]] = {}
     index += 1
   end
   
