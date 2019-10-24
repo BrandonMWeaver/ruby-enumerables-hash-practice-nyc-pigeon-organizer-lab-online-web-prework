@@ -1,4 +1,4 @@
-def get_shallow_data(data)
+def get_data(data)
   hash = {}
   
   index = 0
@@ -13,15 +13,11 @@ def get_shallow_data(data)
     index += 1
   end
   
-  return hash
-end
-
-def get_deep_data(data)
-  hash = get_shallow_data(data)
+  
   
   return hash
 end
 
 def nyc_pigeon_organizer(data)
-  get_deep_data(data)
+  get_data(data)
 end
