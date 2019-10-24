@@ -13,10 +13,6 @@ def get_data(data)
     index += 1
   end
   
-  data[:color][:purple].collect do |pigeon|
-    hash[pigeon] = data[:color]
-  end
-  
   return hash
 end
 
