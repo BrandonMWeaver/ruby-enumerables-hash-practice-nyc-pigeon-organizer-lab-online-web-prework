@@ -22,6 +22,15 @@ def nyc_pigeon_organizer(data)
     end
   end
   
+  data[:lives].each do |lives, pigeons|
+    
+    index = 0
+    while index < pigeons.size do
+      hash[pigeons[index]][:lives] << "#{lives}"
+      index += 1
+    end
+  end
+  
   pp hash
   return hash
 end
