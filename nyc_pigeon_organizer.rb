@@ -17,5 +17,5 @@ def get_data(data)
 end
 
 def nyc_pigeon_organizer(data)
-  get_data(data)
+  
 end
