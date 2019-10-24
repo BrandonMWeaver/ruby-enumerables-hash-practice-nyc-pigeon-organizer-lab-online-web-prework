@@ -13,5 +13,9 @@ def nyc_pigeon_organizer(data)
     index += 1
   end
   
+  data[:color].each do |key, color|
+    puts "#{key} ... #{color}"
+  end
+  
   return hash
 end
