@@ -3,13 +3,13 @@ def nyc_pigeon_organizer(data)
   
   index = 0
   while index < data[:gender][:male].size do
-    hash[data[:gender][:male][index]] = { gender: ["male"] }
+    hash[data[:gender][:male][index]] = { gender: ["male"], color: [] }
     index += 1
   end
   
   index = 0
   while index < data[:gender][:female].size do
-    hash[data[:gender][:female][index]] = { gender: ["female"] }
+    hash[data[:gender][:female][index]] = { gender: ["female"], color: [] }
     index += 1
   end
   
@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     
     index = 0
     while index < pigeons.size do
-      hash[pigeons[index]][:color] = ["#{color}"]
+      hash[pigeons[index]][:color] << color
       index += 1
     end
   end
