@@ -13,8 +13,13 @@ def nyc_pigeon_organizer(data)
     index += 1
   end
   
-  data[:color].each do |key, color|
-    puts "#{key} ... #{color}"
+  data[:color].each do |color, pigeons|
+    
+    index = 0
+    while index < pigeons.size do
+      hash[pigeons[index]][:color] << color
+      index += 1
+    end
   end
   
   return hash
