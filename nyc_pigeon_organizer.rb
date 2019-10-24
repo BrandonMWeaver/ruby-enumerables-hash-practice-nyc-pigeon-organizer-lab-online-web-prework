@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     
     index = 0
     while index < pigeons.size do
-      hash[pigeons[index]][:color] = ["#{color}"]
+      hash[pigeons[index]][:color] += ["#{color}"]
       index += 1
     end
   end
