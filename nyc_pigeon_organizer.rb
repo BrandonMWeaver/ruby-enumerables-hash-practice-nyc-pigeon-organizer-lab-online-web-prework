@@ -14,7 +14,7 @@ def get_data(data)
   end
   
   data[:color].each do |color|
-    
+    puts color
   end
   
   return hash
