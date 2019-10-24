@@ -22,5 +22,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   
+  pp hash
   return hash
 end
