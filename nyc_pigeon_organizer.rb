@@ -1,4 +1,4 @@
-def get_data(data)
+def nyc_pigeon_organizer(data)
   hash = {}
   
   index = 0
@@ -14,8 +14,4 @@ def get_data(data)
   end
   
   return hash
-end
-
-def nyc_pigeon_organizer(data)
-  
 end
